@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwie.view.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/fra_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/Linearlayout1"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="#FAFAF6">
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/nine_home"
+            style="@style/nine_demo"
+            android:drawableTop="@drawable/select_nav_1" />
+
+        <RadioButton
+            android:id="@+id/nine_class"
+            style="@style/nine_demo"
+            android:drawableTop="@drawable/select_nav_2" />
+
+        <RadioButton
+            android:id="@+id/nine_find"
+            style="@style/nine_demo"
+            android:drawableTop="@drawable/select_nav_3" />
+
+        <RadioButton
+            android:id="@+id/nine_cart"
+            style="@style/nine_demo"
+            android:drawableTop="@drawable/select_nav_4" />
+
+        <RadioButton
+            android:id="@+id/nine_my"
+            style="@style/nine_demo"
+            android:drawableTop="@drawable/select_nav_5" />
+        </RadioGroup>
+
+    </LinearLayout>
+</RelativeLayout>

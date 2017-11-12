@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="120dp"
+       android:background="@drawable/normal_regbg">
+
+        <ImageView
+            android:id="@+id/my_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/user"/>
+
+       <TextView
+           android:id="@+id/my_login"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="登录/注册>"
+           android:textSize="18sp"
+           android:layout_toRightOf="@+id/my_head"
+           android:textColor="@color/colorWhite"
+           android:layout_centerVertical="true"/>
+   </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="65dp">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/fukuan"
+            style="@style/AppMine"
+            android:drawableTop="@drawable/dfk"
+            android:text="代付款" />
+
+        <RadioButton
+            android:id="@+id/shouhuo"
+            style="@style/AppMine"
+            android:drawableTop="@drawable/dsh"
+            android:text="待收货" />
+
+        <RadioButton
+            android:id="@+id/pingjia"
+            style="@style/AppMine"
+            android:drawableTop="@drawable/dpj"
+            android:text="待评价" />
+
+        <RadioButton
+            android:id="@+id/tuihuan"
+            style="@style/AppMine"
+            android:drawableTop="@drawable/th_sh"
+            android:text="退换/售后" />
+
+        <RadioButton
+            android:id="@+id/dingdan"
+            style="@style/AppMine"
+            android:drawableTop="@drawable/mydd"
+            android:text="我的订单" />
+    </RadioGroup>
+    </RelativeLayout>
+
+
+</LinearLayout>
