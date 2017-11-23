@@ -13,9 +13,6 @@ import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.Response;
 
-/**
- * Created by ASUS on 2017/11/22.
- */
 
 public class GoodsModel extends BaseModel implements IGoodsModel {
 
