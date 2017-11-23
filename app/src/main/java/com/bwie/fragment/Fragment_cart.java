@@ -23,9 +23,6 @@ import org.greenrobot.eventbus.Subscribe;
 
 import java.util.List;
 
-/**
- * Created by ASUS on 2017/11/9.
- */
 
 public class Fragment_cart extends Fragment implements IGoodsActivity{
     private View view;
