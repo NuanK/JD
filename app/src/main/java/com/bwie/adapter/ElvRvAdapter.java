@@ -19,6 +19,7 @@ import java.util.List;
  */
 
 public class ElvRvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+
     private Context context;
     private List<ProductCatagoryBean.DataBean.ListBean>listBeen;
 
