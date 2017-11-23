@@ -2,9 +2,6 @@ package com.bwie.bean;
 
 import java.util.List;
 
-/**
- * Created by ASUS on 2017/11/22.
- */
 
 public class GoodsBean {
     /**
